@@ -166,35 +166,7 @@ const Settings = () => {
             </div>
           </Card>
 
-          {/* Language Card */}
-          <Card className="p-6 bg-card dark:bg-gray-800">
-            <div className="flex items-center gap-4 mb-6">
-              <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center">
-                <Globe className="w-5 h-5 text-primary" />
-              </div>
-              <div>
-                <h2 className="text-xl font-bold dark:text-gray-100">Language & Region</h2>
-                <p className="text-sm text-muted-foreground dark:text-gray-300">
-                  Set your preferred language
-                </p>
-              </div>
-            </div>
-            <div className="space-y-2">
-              <Label htmlFor="language">Language</Label>
-              <Select value={language} onValueChange={setLanguage}>
-                <SelectTrigger id="language">
-                  <SelectValue />
-                </SelectTrigger>
-                <SelectContent>
-                  <SelectItem value="en">English</SelectItem>
-                  <SelectItem value="es">Español</SelectItem>
-                  <SelectItem value="fr">Français</SelectItem>
-                  <SelectItem value="de">Deutsch</SelectItem>
-                  <SelectItem value="zh">中文</SelectItem>
-                </SelectContent>
-              </Select>
-            </div>
-          </Card>
+        
 
           {/* Privacy & Security Card */}
           <Card className="p-6 bg-card dark:bg-gray-800">
