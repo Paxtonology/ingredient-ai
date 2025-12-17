@@ -76,7 +76,7 @@ const About = () => {
           <h2 className="text-2xl font-bold mb-4">The Technology</h2>
           <div className="space-y-4 text-muted-foreground">
             <p className="leading-relaxed">
-              NutriScan AI combines state-of-the-art computer vision, natural language processing, and
+              Ingredient AI combines state-of-the-art computer vision, natural language processing, and
               machine learning to deliver accurate ingredient analysis. Our system:
             </p>
             <ul className="space-y-2 ml-6 list-disc">
@@ -93,7 +93,7 @@ const About = () => {
           <div className="text-center space-y-4">
             <h2 className="text-2xl font-bold">Join Our Journey</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              We're constantly improving and expanding NutriScan AI. Your feedback helps us serve you better
+              We're constantly improving and expanding Ingredent AI. Your feedback helps us serve you better
               and build a healthier future for everyone.
             </p>
           </div>

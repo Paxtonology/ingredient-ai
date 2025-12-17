@@ -29,7 +29,7 @@ serve(async (req) => {
         messages: [
           {
             role: "system",
-            content: "You are NutriScan AI Assistant, an expert nutritionist and food safety advisor. Help users understand food ingredients, their health impacts, and provide practical advice. Be friendly, clear, and concise. Focus on actionable insights."
+            content: "You are Ingredent AI Assistant, an expert nutritionist and food safety advisor. Help users understand food ingredients, their health impacts, and provide practical advice. Be friendly, clear, and concise. Focus on actionable insights."
           },
           ...messages,
         ],
