@@ -15,7 +15,7 @@ const Navigation = () => {
             <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary to-accent flex items-center justify-center">
               <span className="text-white font-bold text-xl">N</span>
             </div>
-            <span className="font-bold text-xl text-foreground">NutriScan AI</span>
+            <span className="font-bold text-xl text-foreground">Ingredient AI</span>
           </Link>
           
           <div className="flex items-center gap-2 md:gap-4 w-full md:w-auto justify-around md:justify-end">
