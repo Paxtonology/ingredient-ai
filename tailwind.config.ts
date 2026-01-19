@@ -61,7 +61,20 @@ const config: Config = {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
-        // Optional: add a unified dark color palette for easier styling
+        // --- NEW HEALTH STATUS FEATURE ADDED BELOW ---
+        healthy: {
+          DEFAULT: "hsl(var(--healthy))",
+          foreground: "hsl(var(--healthy-foreground))",
+        },
+        moderate: {
+          DEFAULT: "hsl(var(--moderate))",
+          foreground: "hsl(var(--moderate-foreground))",
+        },
+        harmful: {
+          DEFAULT: "hsl(var(--harmful))",
+          foreground: "hsl(var(--harmful-foreground))",
+        },
+        // ---------------------------------------------
         dark: {
           background: "hsl(var(--dark-background))",
           card: "hsl(var(--dark-card))",
