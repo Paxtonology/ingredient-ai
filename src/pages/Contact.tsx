@@ -98,7 +98,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold text-lg mb-1">Email Us</h3>
-                  <p className="text-muted-foreground">support@Ingredient-AI.com</p>
+                  <p className="text-muted-foreground">ingredientai@gmail.com</p>
                   <p className="text-sm text-muted-foreground mt-1">
                     We typically respond within 24 hours
                   </p>
