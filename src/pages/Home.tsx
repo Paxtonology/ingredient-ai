@@ -76,7 +76,7 @@ const Home = () => {
 
         {/* Benefits Section */}
         <section className="bg-gradient-to-br from-primary/5 to-accent/5 rounded-2xl p-8 md:p-12">
-          <h2 className="text-3xl font-bold text-center mb-8">Why Choose NutriScan AI?</h2>
+          <h2 className="text-3xl font-bold text-center mb-8">Why Choose Ingredient AI?</h2>
           
           <div className="grid md:grid-cols-2 gap-6">
             <div className="flex gap-4">
