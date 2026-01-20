@@ -125,7 +125,7 @@ const Home = () => {
         <section className="text-center space-y-6 py-12 bg-gradient-to-r from-primary/10 via-accent/10 to-primary/10 rounded-2xl">
           <h2 className="text-3xl font-bold">Ready to Make Healthier Choices?</h2>
           <p className="text-lg text-muted-foreground max-w-xl mx-auto">
-            Join thousands of users who are taking control of their nutrition with NutriScan AI
+            Join thousands of users who are taking control of their nutrition with Ingredient AI
           </p>
           <Link to="/scanner">
             <Button size="lg" className="gap-2 text-lg h-14 px-8">
